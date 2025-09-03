@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#!/bin/bash
+set -eu
 
 # =========================
 # CONFIG — pas alleen aan indien nodig
@@ -139,3 +139,4 @@ echo "LAN IF used  : ${LAN_IF}"
 echo "Client files : ${CLIENT_DIR}/ (henri/jerre/willy/keem .conf)"
 echo "Show status  : sudo wg show"
 echo "======================================"
+
